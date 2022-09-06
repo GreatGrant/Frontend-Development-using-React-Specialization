@@ -14,8 +14,19 @@ Use Regular Expression to perform validation check.
 
 */
 
-module.exports = function checkPassword() {
+module.exports = function checkPassword(password) {
 
   // Provide Solution Code Here
+  const minimumCharacters = 6;
+  const maximumCharacters =20;
+  let regularExpression = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+
+   if(password.length < minimumCharacters || password.length > maximumCharacters){
+        return false;
+    }
+    if(!regularExpression.test(password)) {
+        return false;
+    }else
+    return true;
 
 }
