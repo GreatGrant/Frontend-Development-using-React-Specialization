@@ -17,8 +17,10 @@ if non-numeric value is passed to the function.
 
 */
 
-module.exports = function drawPattern() {
+module.exports = function drawPattern(noOfRows) {
 
   // Provide Solution Code Here
-
+  for(i in   
+    
+  )
 }
