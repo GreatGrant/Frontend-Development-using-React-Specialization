@@ -28,7 +28,7 @@ The provided phoneNumber is a valid phoneNumber if its value matches with any of
 
 */
 
-module.exports = function checkPhoneNumber() {
+module.exports = function checkPhoneNumber(phoneNumber) {
 
   // Provide Solution Code Here
 
