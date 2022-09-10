@@ -8,3 +8,5 @@ This repo contains all finished projects from the Frontend Development using Rea
 - Develop intuitive Single Page Applications efficiently using React JavaScript library that helps to create interactive user interface painlessly
 - Enhance the React web application quickly with rich user experience which is robust, easy to customize and accessible using Material UI library
 
+## Applied Learning Project
+In this repo, I develop frontend solutions for the given problem statements using React. I build interactive, responsive, and testable Single Page Applications (SPAs) using the skills acquired from the HTML5, CSS3, JavaScript and React courses, while following design principles and best practices to develop solutions to create products that meet the industry-standard.
